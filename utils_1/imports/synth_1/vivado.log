@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Apr 29 16:19:08 2025
+# Process ID         : 32876
+# Current directory  : D:/Programs/vivado/Lab3/Lab3.srcs/utils_1/imports/synth_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent28060 D:\Programs\vivado\Lab3\Lab3.srcs\utils_1\imports\synth_1\control_unit.dcp
+# Log file           : D:/Programs/vivado/Lab3/Lab3.srcs/utils_1/imports/synth_1/vivado.log
+# Journal file       : D:/Programs/vivado/Lab3/Lab3.srcs/utils_1/imports/synth_1\vivado.jou
+# Running On         : Fauna
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 9 7945HX with Radeon Graphics        
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 34024 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36172 MB
+# Available Virtual  : 12639 MB
+#-----------------------------------------------------------
+start_gui
+open_checkpoint D:/Programs/vivado/Lab3/Lab3.srcs/utils_1/imports/synth_1/control_unit.dcp
+Command: open_checkpoint D:/Programs/vivado/Lab3/Lab3.srcs/utils_1/imports/synth_1/control_unit.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1116.695 ; gain = 9.852
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1363.504 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1455.527 ; gain = 0.000
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ila_reg_group' instantiated as 'data_path1/reg_group1/ila_reg_group0' [D:/Programs/vivado/Lab3/Lab3.srcs/sources_1/new/reg_group.v:41]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1456.848 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Project 1-604] Checkpoint was created with Vivado v2024.2 (64-bit) build 5239630
+open_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 1861.145 ; gain = 767.527
+INFO: [Common 17-344] 'open_checkpoint' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 29 16:19:30 2025...
